@@ -1,7 +1,22 @@
 import Axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+//קבלת טוקן
+// import {useSelector} from "react-redux"
+// import { selectToken } from "../features/auth/authSlice"
+// import { jwtDecode } from "jwt-decode";
+// const useAuth = () =>{
+// const token = useSelector(selectToken) /*lsaf…*/
+// if(token){
+// const obj = jwtDecode(token)
+// const {roles, username, fullname, email} = obj
+// return {roles, username, fullname, email ,
+// isLoggedIn:true}
+// }
+// return {roles:'', username:'', fullname:'', email:'' ,
+// isLoggedIn:false}
+// }
+// export default useAuth
 // יבוא רכיבים ואייקונים מ-MUI
 import {
   TextField,

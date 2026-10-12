@@ -11,10 +11,11 @@ connectDB()
 app.use(cors(corsOptions))
 app.use(express.json())
 app.use(express.static("public"))
-app.use("/api/tasks", require("./routes/taskRoute"))
-app.use("/api/users", require("./routes/userRoute"))
-app.use("/api/posts", require("./routes/postRoute"))
-app.use("/api/photos", require("./routes/photoRoute"))
+//app.use("/api/tasks", require("./routes/taskRoute"))
+// app.use("/login", require("./routes/loginRoute"))
+app.use("/users", require("./routes/userRoute"))
+app.use("/kindmanooys", require("./routes/kindManooyRoute"))
+app.use("/managers", require("./routes/managerRoute"))
 
 // //routes
 app.get("/", (req, res) => {

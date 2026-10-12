@@ -8,7 +8,7 @@ const Navigate = () => {
         <div className="nav">
             <Stack direction="row" spacing={2}>
             {/* <Button variant="contained" href="#contained-buttons">Link</Button> */}
-             <Button variant="contained" to="/"href="/">Home Page</Button>
+            <Button variant="contained" to="/"href="/">Home Page</Button>
             <Button variant="contained" to="/tasks"href="/tasks">Task list</Button>
             <Button variant="contained" to="/posts"href="/posts">Post list</Button>
             <Button variant="contained" to="/photos"href="/photos">albums</Button>
